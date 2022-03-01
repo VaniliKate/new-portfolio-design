@@ -50,7 +50,7 @@
     height: 800px;
     width: 100%;
     z-index: -1;
-
+    opacity: .5;
 }
 
 .main {
@@ -68,12 +68,14 @@
     font-size: 3rem;
     text-align: center;
     margin: 40px 0px;
-    color: brown;
+    color: gold;
+    font-weight: bold;
 }
 
 p {
     font-family: Shadows Into Light;
     font-size: 2rem;
-    color: black;
+    color: gold;
+    font-weight: bold;
 
 }
