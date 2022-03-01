@@ -1,8 +1,6 @@
 .navbar {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    background-color: grey;
     position: sticky;
     top: 0;
 }
@@ -26,11 +24,6 @@
     transition: all .5s ease;
 }
 
-.navbar ul li a:hover {
-    background-color: white;
-    color: black;
-    box-shadow: 0 0 10px black;
-}
 
 #home {
     display: flex;
@@ -59,7 +52,6 @@
     box-sizing: border-box;
     padding: 20px;
     margin-bottom: 50px;
-    float: right;
 }
 
 .main {
