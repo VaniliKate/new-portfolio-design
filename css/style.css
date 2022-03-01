@@ -82,5 +82,23 @@ h2 {
 }
 
 #pic {
-    float: right;
+    z-index: -1;
+}
+
+#education {
+    display: flex;
+    flex-direction: column;
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#education::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    ;
 }
