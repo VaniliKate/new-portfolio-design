@@ -39,11 +39,11 @@
     position: absolute;
     top: 0;
     right: 0;
-    background: url(../Assets/cup-of-coffee-1280537__340.webp) no-repeat center center/cover;
+    background: url(../Assets/background-2389033__340.webp) no-repeat center center/cover;
     height: 800px;
     width: 100%;
     z-index: -1;
-    ;
+    opacity: .5;
 }
 
 #about {
