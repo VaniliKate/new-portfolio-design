@@ -122,3 +122,15 @@ h2 {
 .breadcrumb {
     breadcrumb-divider: none;
 }
+
+@media screen and (max-width:480px) {
+    #primary {
+        width: 100%;
+    }
+
+    #secondary {
+        width: 100%;
+        margin: 0;
+        border: none;
+    }
+}
