@@ -81,7 +81,7 @@ h2 {
 }
 
 #pic {
-    z-index: -1;
+    float: right;
 }
 
 .column-2a {
