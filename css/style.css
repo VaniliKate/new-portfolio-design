@@ -47,6 +47,7 @@ body {
     height: 800px;
     width: 100%;
     z-index: -1;
+    opacity: .5;
 }
 
 #about {
@@ -56,6 +57,21 @@ body {
     padding: 20px;
     margin-bottom: 50px;
 
+}
+
+.slide-right h1 {
+    animation: 2s slide-right;
+    animation-delay: 0s;
+}
+
+@keyframes slide-right {
+    from {
+        margin-left: -500px;
+    }
+
+    to {
+        margin-left: 0%;
+    }
 }
 
 
