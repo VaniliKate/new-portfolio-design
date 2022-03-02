@@ -1,3 +1,7 @@
+body {
+    background-color: #CD7F32;
+}
+
 .navbar {
     display: flex;
     justify-content: center;
@@ -51,7 +55,9 @@
     box-sizing: border-box;
     padding: 20px;
     margin-bottom: 50px;
+
 }
+
 
 .main {
     display: flex;
