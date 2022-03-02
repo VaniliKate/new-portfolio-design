@@ -47,7 +47,6 @@ body {
     height: 800px;
     width: 100%;
     z-index: -1;
-    opacity: .5;
 }
 
 #about {
@@ -118,4 +117,8 @@ h2 {
     margin-right: 30px;
     margin-bottom: 40px;
     background-color: lightseagreen;
+}
+
+.breadcrumb {
+    breadcrumb-divider: none;
 }
